@@ -1,0 +1,15 @@
+/* This is a CSS file */
+
+body {
+  background-color: #d2f4f9;
+  background-image: linear-gradient(0deg, #d2f4f9 0%, #bbeff7 24%, #a4e9f4 49%, #8ee4f1 75%, #77deee 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section {
+  margin: 1%;
+  padding: 5%;
+  padding-bottom: 10%;
+  background-color: #e8fafc;
+}
