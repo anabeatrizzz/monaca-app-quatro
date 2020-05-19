@@ -1,4 +1,20 @@
 $(function(){
+    function verificaConexao() {
+      var estadoDaRede = navigator.connection.type;
+
+      var estados = {};
+      estados[Connection.UNKNOWN] = 'Conexao desconhecida';
+      estados[Connection.ETHERNET] = 'Conexao Ethernet';
+      estados[Connection.WIFI] = 'Conexao WiFi';
+      estados[Connection.CELL_2G] = 'Conexao de celular 2G';
+      estados[Connection.CELL_3G] = 'Conexao de celular 3G';
+      estados[Connection.CELL_4G] = 'Conexao de celular 4G';
+      estados[Connection.CELL] = 'Conexao de celular generico';
+      estados[Connection.NONE] = 'Sem conexao';
+
+      alert(`Tipo da conexao: ${estados[estadoDaRede]}`);
+  }
+
   $("#camera").click(function(){
     navigator.camera.getPicture(deuBom, deuRuim, {
       quality: 50,
@@ -41,5 +57,9 @@ $(function(){
           disableSuccessBeep: false
       }
    );
+  })
+
+  $("#internet").click(function(){
+    verificaConexao();
   })
 })
