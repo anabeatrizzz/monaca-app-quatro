@@ -3,14 +3,14 @@ $(function(){
       var estadoDaRede = navigator.connection.type;
 
       var estados = {};
-      estados[Connection.UNKNOWN] = 'Conexao desconhecida';
-      estados[Connection.ETHERNET] = 'Conexao Ethernet';
-      estados[Connection.WIFI] = 'Conexao WiFi';
-      estados[Connection.CELL_2G] = 'Conexao de celular 2G';
-      estados[Connection.CELL_3G] = 'Conexao de celular 3G';
-      estados[Connection.CELL_4G] = 'Conexao de celular 4G';
-      estados[Connection.CELL] = 'Conexao de celular generico';
-      estados[Connection.NONE] = 'Sem conexao';
+      estados[Connection.UNKNOWN] = 'Conexão desconhecida';
+      estados[Connection.ETHERNET] = 'Conexão Ethernet';
+      estados[Connection.WIFI] = 'Conexão WiFi';
+      estados[Connection.CELL_2G] = 'Conexão de celular 2G';
+      estados[Connection.CELL_3G] = 'Conexão de celular 3G';
+      estados[Connection.CELL_4G] = 'Conexão de celular 4G';
+      estados[Connection.CELL] = 'Conexão de celular genérico';
+      estados[Connection.NONE] = 'Sem conexão';
 
       alert(`Tipo da conexao: ${estados[estadoDaRede]}`);
   }
@@ -50,7 +50,7 @@ $(function(){
           torchOn: false, // Lanterna ligada por padrão
           saveHistory: true, // Android, salvar o historico de escaneamento (o padrão é false)
           prompt: "Coloque um código de barras dentro da área de escaneamento",
-          resultDisplayDuration: 500, // Android, mostre o texto escaneado or x milisegundos, o padrão é 1500
+          resultDisplayDuration: 500, // Android, mostre o texto escaneado por x milisegundos, o padrão é 1500
           formats: "QR_CODE, CODE_39",
           orientation: "landscape",
           disableAnimations: true,
