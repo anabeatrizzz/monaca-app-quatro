@@ -12,7 +12,7 @@ $(function(){
       estados[Connection.CELL] = 'Conexão de celular genérico';
       estados[Connection.NONE] = 'Sem conexão';
 
-      alert(`Tipo da conexao: ${estados[estadoDaRede]}`);
+      alert(`Tipo da conexão: ${estados[estadoDaRede]}`);
   }
 
   $("#camera").click(function(){
@@ -28,7 +28,7 @@ $(function(){
     }
 
     function deuRuim(msg) {
-        alert(`Deu ruim pode causa disso: ${msg}`);
+        alert(`Deu ruim por causa disso: ${msg}`);
     }
   })
 
