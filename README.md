@@ -14,7 +14,7 @@ Este é o quarto aplicativo que desenvolvo para a disciplina Programação de Ap
 
 <a href="#índice"><h1 align="center">Tela</h1></a>
 <p align="center">
-  <kbd><img alt="Em breve" width="300" src="#" /></kbd>
+  <kbd><img width="300" src="https://i.ibb.co/wM38Srs/IMG-20201016-181545.jpg" /></kbd>
 </p>
 
 # [Instalação](#índice)
