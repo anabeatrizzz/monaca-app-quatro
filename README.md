@@ -33,3 +33,5 @@ Ou abra uma issue.
 1. Dê um fork neste projeto
 2. Crie uma branch para suas modificações
 3. Envie um pull request
+
+[![GitHub license](https://img.shields.io/github/license/anabeatrizzz/monaca-app-quatro?color=9cf&style=for-the-badge)](https://github.com/anabeatrizzz/monaca-app-quatro/blob/master/LICENSE)
