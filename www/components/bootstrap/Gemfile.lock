@@ -51,11 +51,16 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    mini_portile2 (2.5.0)
-    nokogiri (1.11.2)
+    mini_portile2 (2.5.2)
+      net-ftp (~> 0.1)
+    net-ftp (0.1.2)
+      net-protocol
+      time
+    net-protocol (0.1.0)
+    nokogiri (1.11.6)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    nokogiri (1.11.2-x64-mingw32)
+    nokogiri (1.11.6-x64-mingw32)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -73,6 +78,7 @@ GEM
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    time (0.1.0)
     unicode-display_width (1.7.0)
     wdm (0.1.1)
 
